@@ -1,0 +1,10 @@
+{
+  "kind": "evm_contracts",
+  "contracts": [
+    {
+      "contract": "NightWatchRenderer",
+      "constructorArgs": []
+    }
+  ],
+  "notes": "Deploy NightWatchRenderer on Ethereum with no constructor arguments. It is a stateless, view-only NIGHT WATCHERS SVG renderer callable by anyone through svg(), with no owner, admin, fees or upgrade controls. It reads the existing NIGHT FROGS renderer at 0x4D9BfbafE31eC18E9D3066F1475e24906d155D67 and ArtStore at 0x2A0140BC2b117ffEe9b092af1a927b96328FB000; both addresses are constants in the accepted source. No token, ETH funding or initialization calls are required."
+}
